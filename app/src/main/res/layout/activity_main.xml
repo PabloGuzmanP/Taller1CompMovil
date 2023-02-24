@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/texto_fecha_juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_below="@+id/botonjugar"
+        android:layout_alignLeft="@+id/botonjugar"
+        />
+    <TextView
+        android:id="@+id/texto_contador_juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_below="@+id/texto_fecha_juego"
+        android:layout_alignLeft="@+id/botonjugar"
+        />
+    <TextView
+        android:id="@+id/textocontadorpaises"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonpaises"
+        android:layout_alignLeft="@+id/botonpaises"
+        />
+
+    <Button
+        android:id="@+id/botonjugar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="190dp"
+        android:drawableLeft="@mipmap/gamecontrol_foreground"
+        android:paddingRight="50dp"
+        android:text="JUEGO"
+        android:textAlignment="viewEnd"
+        />
+
+    <Button
+        android:id="@+id/botonpaises"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="80dp"
+        android:text="PAISES"
+        android:textAlignment="viewEnd"
+        android:drawableLeft="@mipmap/ic_launcher_foreground"
+        android:paddingRight="50dp"
+        android:backgroundTint="#008F39"
+    />
+
+</RelativeLayout>
